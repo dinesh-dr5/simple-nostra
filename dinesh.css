@@ -1,0 +1,450 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.offer__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1D232C;
+    color: white;
+    gap: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.offer__section h3 {
+    font-size: 16px;
+}
+
+.offerclose {
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.hidden {
+    display: none;
+}
+
+/* section two */
+.navbar__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 2px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.navbar__title {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.navbar__list {
+    list-style: none;
+    display: none;
+    gap: 30px;
+    padding: 10px;
+}
+
+.navbar__list a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.bar {
+    width: 40px;
+    padding: 10px;
+    display: none;
+}
+/* img section three */
+.img__section{
+    height:500px;
+}
+.img__section img{
+ width: 100%;
+ border-radius: 10px;
+}
+.img__title{
+    color: white;
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img__title button{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    margin: 10px;
+}
+.img__title p{
+padding: 10px;
+font-size:20px;
+
+}
+.img__title h1{
+font-size: 60px;
+}
+
+
+
+
+
+/* brand scetion four  */
+.brand__section {
+    margin-top: 10px;
+}
+
+.brand__title {
+    font-size: 32px;
+}
+
+.brand__main {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.brand__main img {
+    width: 50px;
+    height: 50px;
+}
+
+/* experience section five */
+.exp__section {
+    margin-top: 30px;
+}
+
+.exp__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.exp__img div {
+    width: 200px;
+}
+
+.exp__img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* new Arrival section six */
+.Arrival__section img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.6;
+    position: relative;
+    z-index: 1;
+}
+.Arrival__section{
+    margin-top: 30px;
+}
+
+.Arrival__section button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 3;
+    top: 100px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.arrival__div {
+    position: relative;
+    background-color: #626262;
+    border-radius:20px;
+    margin: 5px;
+    z-index: 2;
+}
+
+.arrival__img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+/* new wanted section seven  */
+.wanted__section{
+    margin-top: 30px;
+}
+.icon2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+    
+}
+.wanted__img img{
+    width: 200px;
+    height: 200px;
+}
+.wanted__img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.wanted__img h3{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+}
+.wanted__img div{
+    position: relative;
+
+}
+/* shop section eight  */
+.shop__section{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: #1D232C;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.shop__img img{
+   width: 100%;
+   height: 100%;
+}
+.shop__img {
+    position: relative;
+    left: 100px;
+}
+.shop__title{
+    position: relative;
+    left:150px;
+    font-size: 25px;
+   
+}
+.shop__title h1,h3{
+    color: white;
+    padding: 5px;
+    
+}
+.shop__title button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ /* letter section nine  */
+
+.letter__section{
+    text-align: center;
+    margin-top: 30px;
+}
+.letter__section h1{
+    font-size: 32px;
+}
+.letter__section p{
+    font-size: 25px;
+    margin: 5px;
+}
+.letter__section button{
+    padding: 15px;
+    border: black solid 2px;
+    align-items: center;
+    background-color: #1D232C;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ /* footer section ten */
+.footer__section{
+    background-color: #1D232C;
+    margin-top: 30px;
+    color: white;
+}
+.footer__section h1{
+    font-size: 32px;
+    padding:10px;
+}
+.para1{
+    font-size:22px;
+     padding:10px;
+}
+.para2{
+     padding:10px;
+}
+.icon3{
+    padding: 10px;
+}
+
+
+/* collection page */
+.filter__section{
+    display: flex;
+    width:50%;
+    height: 900px;
+     border-right: solid black 5px;
+}
+.filter__main{
+ width: 80%;
+   
+}
+.para__title{
+    font-size: 32px;
+    padding: 10px;
+}
+.filter__main li{
+    padding: 10px;
+     font-size: 20px;
+}
+.Collection__img{
+    margin:10px;
+    width: 100%;
+}
+.searchbar{
+    width:100%;
+    height: 40px;
+    border: solid black 2px;
+}
+.searchbar input{
+    width:95%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.flex__section{
+    display: flex;
+}
+/*  */
+.pic{
+    
+    margin:20px;
+    width:25%;
+    height: 250px;
+}
+.pic img{
+     width: 200px;
+    height: 200px;
+}
+.Collection__pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+/* media quries */
+@media screen and (min-width:720px) {
+    .navbar__list {
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+    .bar {
+        display: inline;
+    }
+
+    .exp__title {
+        font-size: 10px;
+    }
+ .shop__img {
+    position: relative;
+    left: 20px;
+}
+.shop__section{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    background-color: #1D232C;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.shop__title{
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+}
+.img__title{
+    color: white;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img__section img{
+ width: 100%;
+ height:300px;
+ border-radius: 10px;
+}
+.img__section{
+    height: 300px;;
+}
+.img__title h1{
+    font-size: 32px;
+}
+.filter__section{
+    width:25%;
+}
+
+.para__title{
+    font-size:20px;
+    padding: 5px;
+}
+.filter__main li{
+    padding: 5px;
+     font-size:15px;
+}
+.pic{
+    font-size: 10px;
+    margin:10px;
+    width: 100px;
+    height: 200px;
+}
+.pic img{
+     width: 100px;
+    height: 100px;
+}
+
+
+}
