@@ -49,11 +49,14 @@ section {
     font-size: 32px;
     padding: 10px;
 }
+.navbar__list li{
+    padding: 10px;
+}
 
 .navbar__list {
     list-style: none;
     display: none;
-    gap: 30px;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -188,7 +191,7 @@ font-size: 60px;
 
 .arrival__img {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -211,7 +214,7 @@ font-size: 60px;
 }
 .wanted__img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -375,8 +378,9 @@ font-size: 60px;
     .navbar__list {
         display: flex;
     }
-    
+
 }
+
 
 @media screen and (max-width:720px) {
     .bar {
@@ -444,6 +448,9 @@ font-size: 60px;
 .pic img{
      width: 100px;
     height: 100px;
+}
+.offer__section{
+    font-size: 10px;
 }
 
 
